@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-// import './index.css';
+import './styles/out.css';
 import Nav from './components/Nav.js';
 import About from './components/About.js';
 import Skills from './components/Skills.js';
@@ -13,10 +13,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Nav />
-    <About />
+    {/* <About />
     <Skills />
     <Experience />
-    <Projects />
+    <Projects /> */}
 
   </React.StrictMode>
 );
