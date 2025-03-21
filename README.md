@@ -14,9 +14,8 @@ This is a personal portfolio website built with React, showcasing my professiona
 
 ## Technologies Used
 - React.js
-- CSS3/SCSS
+- Tailwindcss/vite
 - JavaScript (ES6+)
-- React Router
 - Modern UI/UX principles
 
 ## Getting Started
@@ -25,11 +24,12 @@ This is a personal portfolio website built with React, showcasing my professiona
 - Node.js (version 14 or higher)
 - npm (comes with Node.js)
 
-### Installation
+### Installation and Build for dev
 1. Clone the repository
 2. Run `npm install` to install dependencies
 3. Run `npm start` to launch the development server
-4. Open `http://localhost:3000` to view the portfolio
+4. run command to build Tailwindcss file: `npx @tailwindcss/cli -i ./src/styles/index.css -o ./src/styles/out.css --watch `
+5. Open `http://localhost:3000` to view the portfolio
 
 ## Project Structure
 - `/src/components` - React components
